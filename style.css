@@ -1,5 +1,27 @@
 
-/* Header */
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url("tp_images_fonts/fonts/ballpark.eot");
+    src: url('tp_images_fonts/fonts/ballpark.eot?#000000 iefix') format('embedded-opentype'),
+         url("tp_images_fonts/fonts/ballpark.woff") format('woff'),
+         url('tp_images_fonts/fonts/ballpark.ttf') format('truetype'),
+         url('tp_images_fonts/fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('tp_images_fonts/fonts/dayrom.eot');
+    src: url('tp_images_fonts/fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('tp_images_fonts/fonts/dayrom.woff') format('woff'),
+         url('tp_images_fonts/fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 header
 {
@@ -50,7 +72,7 @@ section h1, footer h1, nav a
     font-weight: normal;
     text-transform: uppercase;
 }
-/* Navigation */
+
 
 nav
 {
@@ -84,8 +106,53 @@ nav a:hover
     border-bottom: 3px solid #760001;
 }
 
-/* Body */
+#banner_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('tp_images_fonts/images/sanfrancisco.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
 
+#banner_description 
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24); 
+    background-color: rgba(24,24,24,0.8); 
+    color: white;
+    font-size: 0.8em;
+}
+
+.red_button
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('tp_images_fonts/images/red_background.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.red_button img
+{
+    border: 0;
+}
 article, aside
 {
     display: inline-block;
@@ -143,31 +210,6 @@ aside img
 {
     margin-right: 5px;
 }
-@font-face
-{
-    font-family: 'BallparkWeiner';
-    src: url("tp_images_fonts/fonts/ballpark.eot");
-    src: url('tp_images_fonts/fonts/ballpark.eot?#000000 iefix') format('embedded-opentype'),
-         url("tp_images_fonts/fonts/ballpark.woff") format('woff'),
-         url('tp_images_fonts/fonts/ballpark.ttf') format('truetype'),
-         url('tp_images_fonts/fonts/ballpark.svg#BallparkWeiner') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face
-{
-    font-family: 'Dayrom';
-    src: url('tp_images_fonts/fonts/dayrom.eot');
-    src: url('tp_images_fonts/fonts/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('tp_images_fonts/fonts/dayrom.woff') format('woff'),
-         url('tp_images_fonts/fonts/dayrom.ttf') format('truetype'),
-         url('fonts/dayrom.svg#Dayrom') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Footer */
 
 footer
 {
